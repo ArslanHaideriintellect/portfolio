@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import "../../node_modules/tailwindcss/base.css";
+@import "../../node_modules/tailwindcss/components.css";
+@import "../../node_modules/tailwindcss/utilities.css";
+body{
+    padding: 0;
+    margin:0;
+    background-color: white;
+    overflow-x: hidden;
+    font-family:Lato, sans-serif;
+}
+.main-block{
+    min-height: 200px;
+    background-color: #1da97c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-block h1{
+    margin: 0;
+    color: white;
+    font-size: 44px;
+}
+.navigation-list{
+    min-height: 50px;
+    background-color: #62bb62;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.navigation-list ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+.navigation-list ul li{
+    float: left;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.home-block h1{
+    font-size: 25px;
+}
+.home-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+}
