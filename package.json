@@ -20,7 +20,7 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-typography": "^2.2.13",
     "gatsby-source-filesystem": "^2.0.29",
-    "gatsby-transformer-remark": "^2.3.8",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-utils": "^2.2.2",
     "imagemin-pngquant": "^5.0.1",
     "node-libpng": "^0.2.7",
